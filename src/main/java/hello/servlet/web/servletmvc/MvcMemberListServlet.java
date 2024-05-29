@@ -3,9 +3,6 @@ package hello.servlet.web.servletmvc;
 import java.io.IOException;
 import java.util.List;
 
-import org.apache.catalina.connector.Request;
-import org.eclipse.tags.shaded.org.apache.xpath.operations.String;
-
 import hello.servlet.domain.member.Member;
 import hello.servlet.domain.member.MemberRepository;
 import jakarta.servlet.RequestDispatcher;
