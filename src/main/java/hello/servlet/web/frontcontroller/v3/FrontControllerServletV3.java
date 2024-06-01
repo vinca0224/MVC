@@ -45,7 +45,7 @@ public class FrontControllerServletV3 extends HttpServlet{
        String viewName = mv.getViewName();
 
        MyView view = getView(viewName);
-    //    view.render(mv.getModel(), request,response);
+       view.render(mv.getModel(), request, response);
     }
 
     private MyView getView(String viewName) {
